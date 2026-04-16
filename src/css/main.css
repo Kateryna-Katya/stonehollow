@@ -81,3 +81,50 @@ height: 545px;
 font-size: 24px;
 }
 }
+/* The Underground World */
+.underground-section{
+    background-image: url("/img/underground/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.underground-text{
+        font-size: 20px;
+        color: #f1f1f1;
+        margin-bottom: 24px;
+}
+.underground-wrap-one,
+.underground-wrap-two{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.underground-wrap-two{
+    margin-top: 32px;
+}
+@media only screen and (min-width: 1440px) {
+  .underground-section{
+    background-image: url("/img/underground/desk.png");
+  }
+  .underground-text-wrap-one,
+  .underground-text-wrap-two{
+    width: 502px;
+  }
+  .underground-wrap-one,
+  .underground-wrap-two {
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 48px;
+  }
+  .und-img{
+    width: 710px;
+        height: 473px;
+  }
+.underground-wrap-two{
+    flex-direction: row-reverse;
+}
+.underground-text{
+    font-size: 24px;
+}
+}
