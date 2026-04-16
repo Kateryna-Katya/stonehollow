@@ -283,3 +283,71 @@ background-image: url("/img/exploration/desk.png");
     font-size: 20px;
  }
 }
+/* Gallery */
+.gallery-section{
+    background-image: url("/img/gallery/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.gallery-title{
+        text-align: center;
+        color: #fff;
+        margin-bottom: 32px;
+}
+@media only screen and (min-width: 1440px) {
+.gallery-section {
+        background-image: url("/img/gallery/desk.png");
+    }
+
+    .gallery-title {
+margin-bottom: 64px;
+    }
+}
+/* Send an Echo to the Surface */
+.send-section{
+    background-image: url("/img/send/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 602px;
+}
+.sent-title{
+color: #cd6751;
+margin-bottom: 16px;
+}
+.send-link{
+    margin-top: 24px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 4px;
+font-family: "Cinzel", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #f1f1f1;
+}
+@media only screen and (min-width: 1440px) {
+ .send-section{
+    background-image: url("/img/send/desk.png");
+    height: 454px;
+ }
+ .send-container{
+    padding-left: 288px;
+ }
+ .sent-title{
+    text-align: left;
+    width: 528px;
+ }
+ .send-text{
+    width: 528px;
+    text-align: left;
+ }
+ .send-link{
+    margin-top: 32px;
+    font-size: 20px;
+ }
+}
