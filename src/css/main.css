@@ -182,3 +182,35 @@ gap: 64px;
     width: 292px;
  }
 }
+/* Atmosphere & Visual Tone */
+.atmosphere-section{
+    background-image: url("/img/atmosphere/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.atmosphere-title{
+    text-align: center;
+}
+.atmosphere-text{
+        font-size: 20px;
+        text-align: center;
+        color: #c0c0c0;
+}
+.desk{
+    display: none;
+}
+@media only screen and (min-width: 1440px) {
+ .atmosphere-section{
+background-image: url("/img/atmosphere/desk.png");
+ }
+ .atmosphere-text{
+    width: 864px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+ }
+.desk {
+    display: block;
+}
+}
