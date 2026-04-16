@@ -123,8 +123,62 @@ font-size: 24px;
   }
 .underground-wrap-two{
     flex-direction: row-reverse;
+    margin-top: 64px;
 }
 .underground-text{
     font-size: 24px;
 }
+}
+/* Puzzle & Navigation Systems */
+.puzzle-section{
+    background-image: url("/img/puzzle/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+.puzzle-title{
+    text-align: left;
+}
+.puzzle-list{
+    margin-top: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.puzzle-item{
+    width: 161px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 24px;
+    text-align: left;
+}
+@media only screen and (min-width: 1440px) {
+ .puzzle-section{
+background-image: url("/img/puzzle/desk.png");    
+ }
+ .puzzle-container{
+display: flex;
+flex-direction: column;
+gap: 64px;
+ }
+ .puzzle-wrapper{
+    display: flex;
+    justify-content: space-between;
+ }
+ .puzzle-title{
+    width: 641px;
+    margin-bottom: 0;
+ }
+ .puzzle-text{
+    width: 528px;
+ }
+ .puzzle-list{
+    flex-direction: row;
+    justify-content: center;
+    gap: 48px;
+ }
+ .puzzle-item{
+    width: 292px;
+ }
 }
